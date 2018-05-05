@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ad-extension-client-side-solution",
+    "id": "f9568fb5-d49b-40c5-81d2-e2834139e72c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadWrite"
+      }
+    ]    
+  },
+  "paths": {
+    "zippedPackage": "solution/ad-extension.sppkg"
+  }
+}
